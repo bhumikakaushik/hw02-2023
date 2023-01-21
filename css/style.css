@@ -18,7 +18,7 @@ h2{
 
 p{
     font-size: 24px;
-    padding: 10px 0px 0px 10px;
+    /* padding: 10px 0px 0px 10px; */
 }
 
 img{
@@ -27,6 +27,12 @@ img{
     margin-left: auto;
     margin-right: auto;
     display: block; 
+}
+
+body div{
+    min-height: 125px;
+    padding: 20px;
+    border: 3px solid #fff;
 }
 
 .introduction{
@@ -87,8 +93,4 @@ footer p{
     padding: 15px 15px 15px 0px;
 }
 
-div{
-    min-height: 125px;
-    padding: 20px;
-    border: 3px solid #fff;
-}
+
