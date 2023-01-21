@@ -23,18 +23,15 @@ p{
 
 img{
     width: 250px;
-    align-items: center;
     border: #fff 10px dashed;
-}
-
-div{
-    min-height: 125px;
-    padding: 20px;
-    border: 3px solid #fff;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
 }
 
 .introduction{
     border-radius: 15px;
+    border: solid 2px ;
     margin-top: 15px;
     line-height: 2;
 }
@@ -47,12 +44,6 @@ div{
     border-left: 5px solid;
 }
 
-
-/* The blue div has the following styles
-Background color is hex value for blue
-Text is aligned on the left side
-A right margin of 50px;
-A  border of 5px on the right and 2px on the top; */
 .blue{
     background-color: #00f;
     text-align: left;
@@ -90,8 +81,14 @@ footer{
     border: solid 5px #fff;
 }
 
-fotter p{
+footer p{
     font-size: 20px;
     text-align: right;
     padding: 15px 15px 15px 0px;
+}
+
+div{
+    min-height: 125px;
+    padding: 20px;
+    border: 3px solid #fff;
 }
