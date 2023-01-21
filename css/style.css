@@ -1,0 +1,97 @@
+body{
+    font-family: Arial, Verdana;
+    background-color: #000;
+    color: #fff;
+    margin: 20px 20px 0px;
+}
+
+h1{
+    font-size: 42px;
+    text-align: center;
+    padding: 15px;
+}
+
+h2{
+    font-size: 30px;
+    color: #0d0d0d;
+}
+
+p{
+    font-size: 24px;
+    padding: 10px 0px 0px 10px;
+}
+
+img{
+    width: 250px;
+    align-items: center;
+    border: #fff 10px dashed;
+}
+
+div{
+    min-height: 125px;
+    padding: 20px;
+    border: 3px solid #fff;
+}
+
+.introduction{
+    border-radius: 15px;
+    margin-top: 15px;
+    line-height: 2;
+}
+
+.red{
+    background-color: #FF0000;
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px solid;
+    border-left: 5px solid;
+}
+
+
+/* The blue div has the following styles
+Background color is hex value for blue
+Text is aligned on the left side
+A right margin of 50px;
+A  border of 5px on the right and 2px on the top; */
+.blue{
+    background-color: #00f;
+    text-align: left;
+    margin-right: 50px;
+    border-right: 5px solid;
+    border-top: 2px solid;
+}
+
+.blue h2, .blue p{
+    color: #c4c4c4;
+}
+
+.yellow{
+    background-color: #ff0;
+    text-align: right;
+    margin-left: 50px;
+    border-left: 5px solid;
+    border-bottom: 2px solid;
+}
+
+.yellow p{
+    color: #707070;
+}
+
+.green{
+    background-color: #00EB00;
+    text-align: left;
+    margin-right: 50px;
+    border-right: 5px solid;
+    border-top: 2px solid;
+}
+
+footer{
+    background-image: linear-gradient(to right, #000000 , #0000ff 25%, #0066ff 75%, #000000);
+    border: solid 5px #fff;
+}
+
+fotter p{
+    font-size: 20px;
+    text-align: right;
+    padding: 15px 15px 15px 0px;
+}
